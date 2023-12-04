@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@builder.io/qwik':
     specifier: ^1.2.19
-    version: 1.2.19(@types/node@20.8.4)(undici@5.26.0)
+    version: 1.2.19(@types/node@20.8.4)(undici@5.26.2)
   '@builder.io/qwik-city':
     specifier: ^1.2.19
     version: 1.2.19(@types/node@20.8.4)
@@ -39,8 +39,8 @@ devDependencies:
     specifier: ^5.2.2
     version: 5.2.2
   undici:
-    specifier: ^5.26.0
-    version: 5.26.0
+    specifier: ^5.26.2
+    version: 5.26.2
   vite:
     specifier: ^4.4.11
     version: 4.4.11(@types/node@20.8.4)
@@ -63,7 +63,7 @@ packages:
       '@types/mdx': 2.0.10
       source-map: 0.7.4
       svgo: 3.0.4
-      undici: 5.26.0
+      undici: 5.26.2
       vfile: 6.0.1
       vite: 4.4.11(@types/node@20.8.4)
       vite-imagetools: 5.1.2
@@ -80,7 +80,7 @@ packages:
       - terser
     dev: true
 
-  /@builder.io/qwik@1.2.19(@types/node@20.8.4)(undici@5.26.0):
+  /@builder.io/qwik@1.2.19(@types/node@20.8.4)(undici@5.26.2):
     resolution: {integrity: sha512-nmext30MPih1vSgsNpdx2jzBbeBKpsWjsLFI0Shs9+ec3z2QUrE9NJO+2P7cduxNt87hyul+twJ3UlJJ6pKxUQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -88,7 +88,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.26.0
+      undici: 5.26.2
       vite: 4.4.11(@types/node@20.8.4)
     transitivePeerDependencies:
       - '@types/node'
@@ -3035,8 +3035,8 @@ packages:
     resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
     dev: true
 
-  /undici@5.26.0:
-    resolution: {integrity: sha512-MLqGMyaJk2ubSl7FrmWuV7ZOsYWmdF7gcBHDRxm4AR8NoodQhgy3vO/D1god79HoetxR0uAeVNB65yj2lNRQnQ==}
+  /undici@5.26.2:
+    resolution: {integrity: sha512-a4PDLQgLTPHVzOK+x3F79/M4GtyYPl+aX9AAK7aQxpwxDwCqkeZCScy7Gk5kWT3JtdFq1uhO3uZJdLtHI4dK9A==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.1.0
