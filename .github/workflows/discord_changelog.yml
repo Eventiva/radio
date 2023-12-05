@@ -41,13 +41,13 @@ name: "Change Report"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 01 * * *" # Run every Monday at 10am UTC
+    - cron: "0 01 * * 0/3"
 
 jobs:
   change-report:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: eventiva/change-report@main
         with:
           # Use a large enough fetch depth to ensure the action can find the commit history to work with
           fetch-depth: 250
